@@ -15,3 +15,5 @@ sudo dkms install btusb/4.0 --kernelsourcedir=/usr/src/linux-headers-6.5.0-35-ge
 sudo apt install linux-generic-hwe-22.04
 
 ```
+## nvidia drivers
+sudo ubuntu-drivers install latest
