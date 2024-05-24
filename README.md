@@ -17,3 +17,27 @@ sudo apt install linux-generic-hwe-22.04
 ```
 ## nvidia drivers
 sudo ubuntu-drivers install latest
+
+
+## QEMU/KVM windows
+
+```
+sudo apt install qemu virt-manager
+```
+reboot and change default image storage path to /home/datasets2/virtimages
+```
+virsh pool-destroy default
+virsh pool-undefine default
+virsh pool-define-as --name default --type dir --target /home/datasets2/virtimages
+virsh pool-start default
+virsh pool-autostart default
+sudo systemctl restart libvirtd
+```
+virt-manager to install windows/Linux VMs
+</br>
+GPQXJ-K24VV-VV72G-GF33P-6X38K
+</br>
+NMQKW-VH8JR-48DC2-7X36Y-CWF7H
+</br>
+V7H3B-R8DPG-9BGYP-MPXRQ-Q3PRQ
+</br>
