@@ -34,10 +34,6 @@ virsh pool-autostart default
 sudo systemctl restart libvirtd
 ```
 virt-manager to install windows/Linux VMs
-</br>
-GPQXJ-K24VV-VV72G-GF33P-6X38K
-</br>
-NMQKW-VH8JR-48DC2-7X36Y-CWF7H
-</br>
-V7H3B-R8DPG-9BGYP-MPXRQ-Q3PRQ
-</br>
+
+<br/>
+Follow https://sysguides.com/install-a-windows-11-virtual-machine-on-kvm
